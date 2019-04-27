@@ -6,7 +6,7 @@
 
 ## 运行容器
 ```bash
-# docker run -d --restart=always --name gitblit-server -p 9010:9010 -p 29418:29418 -v /git:/git gitblit
+# docker run -d --restart=always --name gitblit-server -p 9010:9010 -p 29418:29418 -v /git:/git docker.io/2859413527/gitblit
 ```
 
 此时，可以通过浏览器 ip:9010 进行访问了，默认用户名和密码为 admin:admin
