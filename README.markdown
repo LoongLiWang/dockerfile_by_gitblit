@@ -1,7 +1,9 @@
 ## gitblit 构建
 
+
+## docker pull 镜像
 ```bash
-# docker build -t gitblit .
+# docker pull docker.io/2859413527/gitblit
 ```
 
 ## 运行容器
